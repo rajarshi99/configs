@@ -40,9 +40,8 @@ alias euclid='ssh -N -L localhost:9090:localhost:9090 rajarshi@10.24.36.23'
 alias zotero='/home/rajarshi/Zotero_linux-x86_64/zotero'
 
 # Load ; should be last.
-source /home/rajarshi/.config/zsh/zsh-fzf-history-search.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
-ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=blue,underline
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=blue,underline
-ZSH_HIGHLIGHT_STYLES[arg0]=fg=blue
-
+# source /home/rajarshi/.config/zsh/zsh-fzf-history-search.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
+# ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=blue,underline
+# ZSH_HIGHLIGHT_STYLES[precommand]=fg=blue,underline
+# ZSH_HIGHLIGHT_STYLES[arg0]=fg=blue
